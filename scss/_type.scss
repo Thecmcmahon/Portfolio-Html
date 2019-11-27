@@ -13,7 +13,7 @@
 		animation-direction: alternate;
 		animation-iteration-count: 1;
 		animation-timing-function: linear;
-		font-weight: 900;
+		font-variation-settings: 'wght' 700;
 	}
 	ul{
 		li{
@@ -71,8 +71,15 @@
 
 
 @keyframes h1{
-	from {font-weight: 250;}
-	to {font-weight: 900;}
+	0% {
+		font-variation-settings: 'wght' 250;
+	}
+	50% {
+		font-variation-settings: 'wght' 900;
+	}
+	100% {
+		font-variation-settings: 'wght' 700;
+	}
 }
 
 
